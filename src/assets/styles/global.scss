@@ -1,0 +1,31 @@
+  $background-light: #ffffff;
+  $color-light: #252525;
+  $border-light: #6C63FF;
+ 
+  $background-dark: #2c3e50;
+  $color-dark: #ffffff;
+  $border-dark: #ffffff;
+
+  $theme-color: #6C63FF;
+  $placeholder: #e0e0ee;
+
+.light {
+  background-color: $background-light;
+  color: $color-light;
+}
+
+.dark {
+  background-color: $background-dark;
+  color: $color-dark;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+}

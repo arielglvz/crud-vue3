@@ -2,10 +2,17 @@
   "tasklist": [
     {
       "id": 1,
-      "title": "test title",
-      "desc": "test desc",
+      "title": "test1",
+      "desc": "test desc2",
       "tags": ["personal", "motivation"],
-      "isDone": false
+      "status": false
+    },
+    {
+      "id": 2,
+      "title": "test2",
+      "desc": "test desc2",
+      "tags": ["personal", "motivation"],
+      "status": true
     }
   ]
 }
